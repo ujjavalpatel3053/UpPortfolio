@@ -1,0 +1,116 @@
+.home-container {
+    padding: 40px;
+    text-align: center;
+    background-color: #252424; /* Light background for the whole section */
+  }
+  
+  .intro-section {
+    margin-bottom: 40px;
+  }
+  
+  .intro-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: rgb(255, 215, 0);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .intro-section p {
+    font-size: 1.3em;
+    margin-bottom: 20px;
+    color: rgb(240, 238, 231);
+  }
+  
+  .features-section {
+    margin-bottom: 40px;
+  }
+  
+  .features-section h2 {
+    font-size: 2em;
+    color: rgb(255, 215, 0);
+    margin-bottom: 20px;
+  }
+  
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  .feature-card {
+    background-color: #cac8a8; /* White background for cards */
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .feature-icon {
+    font-size: 40px;
+    color: #007bff; /* Primary color for icons */
+    margin-bottom: 10px;
+  }
+  
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 15px;
+  }
+  
+  .image-gallery {
+    margin-top: 20px;
+  }
+  
+  .image-gallery h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .image-gallery img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .image-gallery img:hover {
+    transform: scale(1.05);
+  }
+
+  .profile-picture {
+    width: 150px;
+    height: 150px;
+    /* border-radius: 5%;  */
+    object-fit: fill; 
+    border: 4px solid #a19d79;
+    margin: 0 auto;
+  }
+  .about-container {
+    padding: 20px;
+    background-color: #cbe0ec;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin: 20px auto;
+  }
+  body {
+    margin: 0; /* Remove default margin */
+    background-color: #000000; /* Set background color to black */
+    color: #ffffff; /* Set default text color to white for better contrast */
+}
+
+.home-container {
+    padding: 40px;
+    text-align: center;
+    background-color: #252424; /* Light background for the whole section */
+    border-radius: 8px; /* Optional: Add border-radius for a smoother look */
+}

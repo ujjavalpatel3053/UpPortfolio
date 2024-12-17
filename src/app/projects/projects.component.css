@@ -1,0 +1,54 @@
+.project-container {
+    padding: 40px;
+    text-align: center;
+    background-color: #252424;
+    color: #ffffff; /* White text for better contrast */
+}
+
+.project-container h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: rgb(255, 215, 0);
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.project-card {
+    background-color: #333; /* Dark background for project cards */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-image {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.project-links {
+    margin-top: 10px;
+}
+
+.project-links .btn {
+    margin: 5px;
+    padding: 10px 15px;
+    background-color: rgb(255, 215, 0); /* Golden color */
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.project-links .btn:hover {
+    background-color: #d4af37; /* Darker shade of golden */
+}

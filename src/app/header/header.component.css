@@ -1,0 +1,41 @@
+
+   .sidebar {
+    width: fit-content;
+    height: 100vh; 
+    padding: 10px;
+    display: flex; 
+    flex-direction: column;
+    background-color: #3f3e3e; /* Black background for the sidebar */
+    box-sizing: border-box;
+    position: fixed; 
+    left: 0; 
+    top: 0;
+}
+  
+.sidebar button {
+    background-color: #a59d6e; /* Golden background for buttons */
+    border: none; 
+    color: #000000; /* Black text color */
+    margin: 5px 0; 
+    text-align: left;
+    width: 100%; 
+}
+  
+.toggle-icon {
+    position: fixed; 
+    left: 10px; 
+    top: 10px;
+    /* background-color: #ffffff; Black background for toggle icon */
+    padding: 10px; 
+    cursor: pointer; 
+    z-index: 1000; 
+}
+  
+.toggle-icon i {
+    font-size: 24px; 
+    color: #FFD700; /* Golden color for the toggle icon */
+}
+.hamburger-icon img{
+height: 30px;
+width: 30px;
+}

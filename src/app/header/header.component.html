@@ -1,0 +1,13 @@
+<!-- Toggle Icon -->
+<div class="toggle-icon" *ngIf="!isVisible" (click)="toggleSidebar()">
+  <div class="hamburger-icon"><img src="assets\MenuIcon.png"></div>
+</div>
+<!-- Sidebar -->
+<kendo-toolbar class="sidebar" *ngIf="isVisible">
+  <button kendoButton routerLink="/Home" (click)="toggleSidebar()">Home</button>
+  <button kendoButton routerLink="/About" (click)="toggleSidebar()">About</button>
+  <button kendoButton routerLink="/Skills" (click)="toggleSidebar()">Skills</button>
+  <button kendoButton routerLink="/Projects" (click)="toggleSidebar()">Projects</button>
+  <button kendoButton routerLink="/Contact" (click)="toggleSidebar()">Contact</button>
+</kendo-toolbar>
+

@@ -1,0 +1,92 @@
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #000000; /* Keep background white */
+    padding: 20px;
+    box-sizing: border-box;
+}
+  
+.contact-container {
+    background: #ffecb3; /* Light yellow background for the container */
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+  
+.contact-container h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #000000; /* Black color for the heading */
+}
+  
+.contact-container p {
+    margin-bottom: 20px;
+    font-size: 1rem;
+    color: #333333; /* Dark gray for better contrast */
+}
+  
+.contact-info {
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 1rem;
+    color: #333333; /* Dark gray for better contrast */
+}
+  
+.contact-info p {
+    margin: 5px 0;
+}
+  
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+  
+.form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+  
+.form-group label {
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+    color: #333333; /* Dark gray for labels */
+}
+  
+.form-group input,
+.form-group textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+  
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #ffd700; /* Gold color for focused input */
+    box-shadow: 0 0 4px rgba(255, 215, 0, 0.5); /* Gold shadow on focus */
+}
+  
+button {
+    background-color: #ffcc00; /* Gold background for button */
+    color: #000; /* Black text color */
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+button:hover {
+    background-color: #e6b800; /* Darker gold on hover */
+}
