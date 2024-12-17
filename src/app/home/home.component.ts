@@ -18,10 +18,13 @@ export class HomeComponent implements OnInit {
     'User-Centric Applications',
     'Innovative Solutions',
     'Continuous Learning',
-    'Continuous Learning',
-    'Continuous Learning',
-    'Continuous Learning',
-    'Continuous Learning',
+    'Cross-Browser Compatibility',
+    'Optimized Performance',
+    'SEO-Friendly Development',
+    'Real-Time Data Visualization',
+    'Interactive Animations',
+    'Progressive Web Apps (PWAs)',
   ];
+  
 
 }
