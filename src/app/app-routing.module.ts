@@ -11,6 +11,7 @@ const routes: Routes =
   [
     { path: 'header', component: HeaderComponent },
     { path: '', redirectTo: 'Home', pathMatch: 'full' },
+    {path:'http://localhost:4200/',redirectTo:'',pathMatch:'full'},
     { path: 'Home', component:HomeComponent  },
     { path: 'About', component: AboutComponent },
     { path: 'Skills', component: SkillsComponent },
