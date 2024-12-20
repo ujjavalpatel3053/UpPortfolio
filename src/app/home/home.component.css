@@ -39,7 +39,7 @@
   }
   
   .feature-card {
-    background-color: #cac8a8; /* White background for cards */
+    background-color: #cac8a8; 
     border: 1px solid #e0e0e0;
     border-radius: 8px;
     padding: 20px;
@@ -55,7 +55,7 @@
   
   .feature-icon {
     font-size: 40px;
-    color: #007bff; /* Primary color for icons */
+    color: #007bff; 
     margin-bottom: 10px;
   }
   

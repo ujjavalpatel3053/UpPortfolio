@@ -15,9 +15,9 @@ export class ProjectsComponent implements OnInit {
     {
       title: 'Project 1',
       description: 'A brief description of project 1.',
-      image: 'assets/project1.jpg', // Replace with your image paths
-      //liveDemo: 'https://example.com/project1', // Replace with live demo link
-      //github: 'https://github.com/username/project1' // Replace with GitHub link
+      image: 'assets/project1.jpg', 
+      //liveDemo: 'https://example.com/project1', 
+      //github: 'https://github.com/username/project1' 
     },
     {
       title: 'Project 2',

@@ -2,7 +2,7 @@
     padding: 40px;
     text-align: center;
     background-color: #252424;
-    color: #ffffff; /* White text for better contrast */
+    color: #ffffff; 
 }
 
 .project-container h1 {
@@ -18,7 +18,7 @@
 }
 
 .project-card {
-    background-color: #333; /* Dark background for project cards */
+    background-color: #333; 
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     padding: 20px;
@@ -42,7 +42,7 @@
 .project-links .btn {
     margin: 5px;
     padding: 10px 15px;
-    background-color: rgb(255, 215, 0); /* Golden color */
+    background-color: rgb(255, 215, 0); 
     color: #000;
     text-decoration: none;
     border-radius: 5px;
@@ -50,5 +50,5 @@
 }
 
 .project-links .btn:hover {
-    background-color: #d4af37; /* Darker shade of golden */
+    background-color: #d4af37; 
 }

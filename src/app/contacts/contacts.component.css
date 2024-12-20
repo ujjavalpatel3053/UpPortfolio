@@ -2,14 +2,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Full viewport height */
-    background-color: #000000; /* Keep background white */
+    height: 100vh;
+    background-color: #000000; 
     padding: 20px;
     box-sizing: border-box;
 }
   
 .contact-container {
-    background: #ffecb3; /* Light yellow background for the container */
+    background: #ffecb3; 
     border-radius: 8px;
     padding: 30px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -21,20 +21,20 @@
 .contact-container h1 {
     margin-bottom: 20px;
     font-size: 2rem;
-    color: #000000; /* Black color for the heading */
+    color: #000000; 
 }
   
 .contact-container p {
     margin-bottom: 20px;
     font-size: 1rem;
-    color: #333333; /* Dark gray for better contrast */
+    color: #333333;
 }
   
 .contact-info {
     margin-bottom: 20px;
     text-align: left;
     font-size: 1rem;
-    color: #333333; /* Dark gray for better contrast */
+    color: #333333;
 }
   
 .contact-info p {
@@ -56,7 +56,7 @@ form {
 .form-group label {
     margin-bottom: 5px;
     font-size: 0.9rem;
-    color: #333333; /* Dark gray for labels */
+    color: #333333; 
 }
   
 .form-group input,
@@ -72,8 +72,8 @@ form {
 .form-group input:focus,
 .form-group textarea:focus {
     outline: none;
-    border-color: #ffd700; /* Gold color for focused input */
-    box-shadow: 0 0 4px rgba(255, 215, 0, 0.5); /* Gold shadow on focus */
+    border-color: #ffd700; 
+    box-shadow: 0 0 4px rgba(255, 215, 0, 0.5); 
 }
   
 button {
