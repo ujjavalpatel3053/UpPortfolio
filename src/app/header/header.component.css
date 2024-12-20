@@ -34,12 +34,15 @@
     font-size: 24px; 
     color: #616060; 
 }
-.hamburger-icon img{
-height: 30px;
-width: 30px;
-background-color: rgba(128, 125, 125, 0.212);
+
+.hamburger-icon img
+{
+    height: 30px;
+    width: 30px;
+    background-color: rgba(128, 125, 125, 0.212);
 }
-.sidebar :last-child{
+.sidebar :last-child
+{
     background-color: rgb(163, 69, 69);
 }
   
