@@ -25,6 +25,4 @@ export class HomeComponent implements OnInit {
     'Interactive Animations',
     'Progressive Web Apps (PWAs)',
   ];
-  
-
 }
