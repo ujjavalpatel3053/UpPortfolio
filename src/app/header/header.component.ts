@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 
 @Component({
@@ -9,7 +10,7 @@ import { Component, OnInit } from '@angular/core';
 export class HeaderComponent implements OnInit {
   isVisible = true; 
 
-  constructor() { }
+  constructor(private router:Router) { }
 
   ngOnInit() 
   {
@@ -18,5 +19,8 @@ export class HeaderComponent implements OnInit {
   toggleSidebar() 
   {
     this.isVisible = !this.isVisible;
+  }
+  logout() {
+    this.router.navigate(['Home']);
   }
 }
