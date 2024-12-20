@@ -11,10 +11,12 @@ export class HeaderComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {
-    this.isVisible = false;
+  ngOnInit() 
+  {
+    this.isVisible = false; 
   }
-  toggleSidebar() {
+  toggleSidebar() 
+  {
     this.isVisible = !this.isVisible;
   }
 }
