@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-  isVisible = true; // Sidebar visibility state
+  isVisible = true; 
 
   constructor() { }
 
@@ -15,6 +15,6 @@ export class HeaderComponent implements OnInit {
     this.isVisible = false;
   }
   toggleSidebar() {
-    this.isVisible = !this.isVisible; // Toggle the sidebar visibility
+    this.isVisible = !this.isVisible;
   }
 }

@@ -32,9 +32,10 @@
   
 .toggle-icon i {
     font-size: 24px; 
-    color: #FFD700; 
+    color: #616060; 
 }
 .hamburger-icon img{
 height: 30px;
 width: 30px;
+background-color: rgba(0, 0, 0, 0.212);
 }

@@ -12,7 +12,6 @@ export class ContactsComponent implements OnInit {
   ngOnInit() {
   }
   onSubmit() {
-    // Logic to handle form submission
     alert('Thank you for reaching out! I will get back to you soon.');
   }
 }
