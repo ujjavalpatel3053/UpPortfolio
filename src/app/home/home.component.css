@@ -101,6 +101,9 @@
     max-width: 900px;
     margin: 20px auto;
   }
+  .about-container,p{
+      color: whitesmoke;
+  }
   body {
     margin: 0; 
     background-color: #000000; 
