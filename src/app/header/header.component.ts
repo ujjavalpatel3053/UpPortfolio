@@ -20,7 +20,7 @@ export class HeaderComponent implements OnInit {
   {
     this.isVisible = !this.isVisible;
   }
-  logout() {
-    this.router.navigate(['Home']);
-  }
+  // logout() {
+  //   this.router.navigate(['Home']);
+  // }
 }
