@@ -15,6 +15,7 @@ import { SkillsComponent } from './skills/skills.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ContactsComponent } from './contacts/contacts.component';
 import { HomeComponent } from './home/home.component';
+import { BusViewService } from '@progress/kendo-angular-dateinputs';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,7 @@ import { HomeComponent } from './home/home.component';
     ChartsModule
 
   ],
-  providers: [],
+  providers: [BusViewService],
   bootstrap: [AppComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA], // Add CUSTOM_ELEMENTS_SCHEMA here
 })
