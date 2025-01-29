@@ -9,9 +9,14 @@ export class ContactsComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {
+
+  ngOnInit() 
+  {
+
   }
-  onSubmit() {
+  onSubmit() 
+  {
     alert('Thank you for reaching out! I will get back to you soon.');
   }
+
 }

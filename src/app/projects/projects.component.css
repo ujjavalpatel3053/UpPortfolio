@@ -1,4 +1,11 @@
-.project-container {
+body
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.project-container 
+{
     padding: 40px;
     text-align: center;
     background-color: #252424;
@@ -15,6 +22,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 20px;
+    margin-bottom: 50px;
 }
 
 .project-card {
@@ -22,6 +30,7 @@
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     padding: 20px;
+    margin: 59px;   
     transition: transform 0.3s ease;
 }
 
