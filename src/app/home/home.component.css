@@ -1,3 +1,4 @@
+
 .home-container {
     padding: 40px;
     text-align: center;
@@ -30,7 +31,10 @@
     color: rgb(255, 215, 0);
     margin-bottom: 20px;
   }
-  
+  .features-section h3
+  {
+    color: #000000;
+  }
   .features-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -39,8 +43,8 @@
   }
   
   .feature-card {
-    background-color: #cac8a8; 
-    border: 1px solid #e0e0e0;
+    background-color: #CAC8BD;
+    border: 1px solid #747474;
     border-radius: 8px;
     padding: 20px;
     text-align: center;
@@ -105,14 +109,15 @@
       color: whitesmoke;
   }
   body {
-    margin: 0; 
+    margin: 0px; 
+    padding:0px;
     background-color: #000000; 
     color: #ffffff;
 }
 
-.home-container {
+/* .home-container {
     padding: 40px;
     text-align: center;
     background-color: #252424; 
     border-radius: 8px;
-}
+} */
