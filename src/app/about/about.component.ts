@@ -13,9 +13,9 @@ export class AboutComponent implements OnInit {
   }
   openDocument(type) {
     if (type === 'biodata') {
-        window.open('assets/Regularity%20Report_09102024_113932415.pdf', '_blank');
+        window.open('assets/Ujjaval_Patel_cv.pdf', '_blank');
     } else if (type === 'resume') {
-        window.open('assets/Regularity%20Report_09102024_113932415.pdf', '_blank');
+        window.open('assets/Ujjaval_Patel_cv.pdf', '_blank');
     }
 }
 }
